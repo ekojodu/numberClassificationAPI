@@ -38,9 +38,6 @@ GET /api/classify-number?number={num}
 Query Parameter:
 number (Integer) → The number to classify.
 Response (200 OK) Example:
-json
-Copy
-Edit
 {
   "number": 371,
   "is_prime": false,
@@ -50,14 +47,14 @@ Edit
   "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
 }
 Response (400 Bad Request) Example (Invalid Input):
-json
 {
   "number": "abc",
   "error": true
 }
+
 🛠 Project Structure
 
-📁 number-classification-api
+📁 numberClassificationAPI
 │-- 📄 script.js         # Main server file
 │-- 📄 package.json     # Dependencies & scripts
 │-- 📄 README.md        # API Documentation
