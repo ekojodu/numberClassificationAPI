@@ -31,7 +31,7 @@ https://numberclassificationapi.onrender.com
 
 Example API Call:
 
-[GET ](https://numberclassificationapi.onrender.com)/api/classify-number?number=371
+https://numberclassificationapi.onrender.com/api/classify-number?number=371
 
 
 🔥 Installation & Setup
