@@ -42,7 +42,7 @@ const digitSum = (num) =>
 		.reduce((acc, digit) => acc + Number(digit), 0); // Sum all digits of the number
 
 // Endpoint to classify number
-app.get('/api/classify-number?number=371', async (req, res) => {
+app.get('/api/classify-number', async (req, res) => {
 	const { number } = req.query; // Get the number query parameter
 
 	if (isNaN(number)) {
