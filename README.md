@@ -28,9 +28,10 @@ Render (For deployment)
 Base URL:
 
 https://numberclassificationapi.onrender.com
+
 Example API Call:
 
-GET /api/classify-number?number=371
+[GET ](https://numberclassificationapi.onrender.com)/api/classify-number?number=371
 
 
 🔥 Installation & Setup
