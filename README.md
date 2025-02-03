@@ -22,8 +22,8 @@ GET /api/classify-number?number=371
 
 🔥 Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/number-classification-api.git
-cd number-classification-api
+git clone https://github.com/ekojodu/numberClassificationAPI.git
+cd numberClassificationAPI
 2️⃣ Install Dependencies
 npm install
 3️⃣ Run Locally
